@@ -1,3 +1,10 @@
+/*
+ * Prime Number Checker
+ * Author: Dibyjyoti Mishra
+ * Description: A C program that takes an integer input from the user 
+ * and checks whether it is a prime number or not. It includes basic 
+ * input validation and an optimized primality test.
+ */
 #include <stdio.h>
 
 int main(){
