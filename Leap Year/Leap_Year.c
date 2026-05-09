@@ -9,7 +9,13 @@
 int main(){
     int year;
     printf("Input a year: ");
-    scanf("%d", &year);
+    
+    if (scanf("%d", &year) != 1)
+    {
+        printf("Enter a valid year");
+        return 1;
+    }
+    
 
     if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
         printf("This is a leap year");
