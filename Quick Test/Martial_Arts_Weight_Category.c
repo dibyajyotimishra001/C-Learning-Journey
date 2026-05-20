@@ -1,3 +1,10 @@
+/*
+Author: Dibyajyoti Mishra
+
+Purpose: Categorizes a martial arts competitor based on their weight in kilograms.
+Logic: Employs an if-else if-else ladder combined with logical operators to classify weight profiles into predefined brackets (Lightweight, Middleweight, Heavyweight).
+Key Concepts: Relational operators, logical AND (&&) operators, multi-conditional branching.
+*/
 #include <stdio.h>
 
 int main(){
