@@ -1,3 +1,10 @@
+/*
+Author: Dibyajyoti Mishra
+
+Purpose: Tracks user commit activity over a 7-day week to maintain a profile streak.
+Logic: Utilizes a loop to prompt the user for daily commit counts. It uses modular helper functions to handle user input and print status messages. If commits are zero for a day, the iteration is skipped.
+Key Concepts: for loops, continue statement, modular function design, function prototypes.
+*/
 #include <stdio.h>
 
 void green_dot();

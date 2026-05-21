@@ -1,3 +1,10 @@
+/*
+Author: Dibyajyoti Mishra
+
+Purpose: Calculates a user's net typing score for the 'Alpha Keystorm' game.
+Logic: Accepts total words and total errors as input. It validates that inputs are numeric and that errors are non-negative and do not exceed total words, then subtracts errors from total words to produce the score.
+Key Concepts: Variable declaration, scanf() input validation, arithmetic subtraction, conditional checks.
+*/
 #include <stdio.h>
 
 int main(){
