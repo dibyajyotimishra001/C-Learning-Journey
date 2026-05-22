@@ -1,6 +1,6 @@
 /*
  * Leap Year Checker
- * Author: Dibyjyoti Mishra
+ * Author: Raj
  * Description: A simple C program that takes a year as input from the user 
  * and determines whether it is a leap year based on standard Gregorian calendar rules.
  */
