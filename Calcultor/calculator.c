@@ -15,6 +15,7 @@
 int main(){
     float num_1, num_2;
     char operator;
+    char extra;
 
     printf("\nEnter the 1st num: ");
     if(scanf("%f", &num_1) != 1){
@@ -23,8 +24,17 @@ int main(){
     }
 
     printf("\nEnter the operator (+ or - or  * or /): ");
+    // Read the operator character
     if(scanf(" %c", &operator) != 1){
         printf("Invalid input, please enter a valid operator\n");
+        return 1;
+    }
+
+    
+    if (scanf("%c", &extra) == 1 && extra != '\n') {
+        printf("Invalid input, please enter only a single valid operator\n");
+        // Clear the remaining garbage characters from the buffer
+        while ((getchar()) != '\n');
         return 1;
     }
 
@@ -37,28 +47,22 @@ int main(){
     if (operator == '+'){
         printf("%.2f %c %.2f = %.2f\n", num_1, operator, num_2, (num_1 + num_2));
     }
-    
     else if (operator == '-'){
         printf("%.2f %c %.2f = %.2f\n", num_1, operator, num_2, (num_1 - num_2));
     }
-
     else if (operator == '*'){
         printf("%.2f %c %.2f = %.2f\n", num_1, operator, num_2, (num_1 * num_2));
     }
-
     else if (operator == '/'){
-        
-        if (num_2 == 0){
-            printf("0 cannot be divided\n");
-        }
-        else{
+        if (num_2 == 0) {
+            printf("Error: Division by zero is not allowed.\n");
+        } else {
             printf("%.2f %c %.2f = %.2f\n", num_1, operator, num_2, (num_1 / num_2));
         }
     }
     else{
-        printf("Somthing went wrong, you may entered some wrong input\n");
+        printf("Something went wrong, you may have entered some wrong input\n");
     }
-
 
     return 0;
 }
