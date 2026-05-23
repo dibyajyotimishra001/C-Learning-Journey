@@ -47,7 +47,13 @@ int main(){
     }
 
     else if (operator == '/'){
-        printf("%.2f %c %.2f = %.2f\n", num_1, operator, num_2, (num_1 / num_2));
+        
+        if (num_2 == 0){
+            printf("0 cannot be divided\n");
+        }
+        else{
+            printf("%.2f %c %.2f = %.2f\n", num_1, operator, num_2, (num_1 / num_2));
+        }
     }
     else{
         printf("Somthing went wrong, you may entered some wrong input\n");
