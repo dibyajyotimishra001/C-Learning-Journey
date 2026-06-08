@@ -17,7 +17,7 @@ int main(){
     }
     
 
-    if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+    if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){ // The correct way
         printf("This is a leap year");
     }
     else{
