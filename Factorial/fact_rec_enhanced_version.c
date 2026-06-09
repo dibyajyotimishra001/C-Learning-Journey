@@ -21,7 +21,6 @@ int main() {
         
         if (status != 1) {
             printf("Invalid input! Please enter a valid integer.\n");
-            while (getchar() != '\n'); 
             continue;
         }
         

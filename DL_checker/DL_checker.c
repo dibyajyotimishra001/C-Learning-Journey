@@ -16,7 +16,7 @@ int main(){
         return 1;
     }
 
-    if (age < 0 || age > 100)
+    if (age < 0 || age > 110)
     {
         printf("Invalid Age\n");
     }
