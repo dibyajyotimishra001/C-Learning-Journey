@@ -6,13 +6,12 @@ int factorial(int num) {
     if (num == 1 || num == 0) {
         return 1;
     }
-    return num * factorial(num - 1);
+    return num * factorial(num - 1); // Calling back the function
 }
 
 int main() {
-    int loop = 1;
     
-    while (loop == 1) {
+    while (1) {
         int num;
         
         printf("\nEnter a number to find factorial (or a negative number to exit): ");
