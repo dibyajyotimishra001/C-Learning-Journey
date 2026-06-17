@@ -20,12 +20,12 @@ int main() {
         
         if (status != 1) {
             printf("Invalid input! Please enter a valid integer.\n");
-            continue;
+            break;
         }
         
         // Exit condition
         if (num < 0) {
-            printf("Exiting the Domain. Malevolent Shrine collapses!\n");
+            printf("Try entering greater than 0\n");
             break;
         }
         
