@@ -15,14 +15,14 @@ int main(){
 
     if(scanf("%f", &percentage) != 1){
         printf("Invalid Input, please enter a valid number and try again\n");
-        return 1;
+        return 1;  // When wrong input, it will return an error message and close
     }
 
-    
+    // As per CBSE
     if (percentage > 100 || percentage < 0)
     {
         printf("Invalid Percentage, Please input a valid Number.\n");
-        return 1;
+        return 1;  // Scaling the percentage
     }
     
     else if (percentage >= 90)

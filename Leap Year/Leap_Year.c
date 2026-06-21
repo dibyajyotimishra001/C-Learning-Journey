@@ -17,7 +17,7 @@ int main(){
     }
     
 
-    if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){ // The correct way
+    if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){ // According to Gregorian calendar
         printf("This is a leap year");
     }
     else{

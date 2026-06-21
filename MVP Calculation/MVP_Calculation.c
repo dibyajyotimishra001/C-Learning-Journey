@@ -5,7 +5,7 @@ float kda_calculation(int, int, int);
 float kda_calculation(int kills, int deaths, int assists){
     float effective_death, kda;
     if (deaths == 0){
-        effective_death = 1.0;
+        effective_death = 1.0; // Not affecting the score
     }
     else{
        effective_death = (float)deaths;

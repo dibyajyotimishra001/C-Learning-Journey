@@ -1,7 +1,7 @@
 # KDA and MVP Calculator (C Version)
 
 ## Overview
-This project is a C-based command-line application that calculates a player's KDA (Kills, Deaths, Assists) ratio and evaluates their MVP score. It is built with a clean architecture, separating the core logic into dedicated functions for precise calculations.
+This project is a C-based command-line application that calculates player's KDA (Kills, Deaths, Assists) ratio and evaluates their MVP score. It is built with a clean architecture, separating the core logic into dedicated functions for precise calculations.
 
 ## Features
 * **Modular Code:** Utilizes separate function prototypes and definitions (`kda_calculation` and `mvp_calculation`) for clean and readable code structure.

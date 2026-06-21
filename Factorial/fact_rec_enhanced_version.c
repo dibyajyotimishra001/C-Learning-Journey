@@ -6,13 +6,12 @@ int factorial(int num) {
     if (num == 1 || num == 0) {
         return 1;
     }
-    return num * factorial(num - 1);
+    return num * factorial(num - 1); // Calling back the function
 }
 
 int main() {
-    int loop = 1;
     
-    while (loop == 1) {
+    while (1) {
         int num;
         
         printf("\nEnter a number to find factorial (or a negative number to exit): ");
@@ -21,12 +20,12 @@ int main() {
         
         if (status != 1) {
             printf("Invalid input! Please enter a valid integer.\n");
-            continue;
+            break;
         }
         
         // Exit condition
         if (num < 0) {
-            printf("Exiting the Domain. Malevolent Shrine collapses!\n");
+            printf("Try entering greater than 0\n");
             break;
         }
         

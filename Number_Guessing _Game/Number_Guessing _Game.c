@@ -27,7 +27,7 @@ int main() {
             printf("Invalid input, please enter a valid no.\n");
             return 1;
         }
-        if (guessed < 1 || guessed > 10)
+        if (guessed < 1 || guessed > 10) // Creating a scale between 1 to 10
         {
             printf("please enter a valid no. between 1 to 10\n");
             return 1;

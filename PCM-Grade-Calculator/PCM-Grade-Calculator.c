@@ -36,7 +36,7 @@ int main(){
     float total_mark = phy + che + math;
     float total_percentage = (total_mark * 100)/ 300;
 
-    if (phy > 100 || phy < 0 || che > 100 || che < 0 || math > 100 || math < 0){
+    if (phy > 100 || phy < 0 || che > 100 || che < 0 || math > 100 || math < 0){ // creating a scale
         printf("Please enter a valid marks\n");
         return 1;
     }
