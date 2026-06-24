@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swap(int*, int*);
+void swap(int*, int*); // Using call by reference
 void swap(int* num1, int* num2){
     int temp;
     temp = *num1;
