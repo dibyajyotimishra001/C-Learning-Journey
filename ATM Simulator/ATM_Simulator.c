@@ -6,7 +6,7 @@ int main()
     float balance = 100000.0, add_balance, withdraw;
     while (1)
     {
-        printf("\nChoose 1/2/3/4 to continue\n");
+        printf("\n---Choose 1/2/3/4 to continue---\n");
         printf("1. Check balance\n");
         printf("2. Deposit money\n");
         printf("3. Withdraw money\n");
