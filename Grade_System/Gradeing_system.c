@@ -71,7 +71,7 @@ int main(){
         printf("Grade - E2\n");
         printf("Fail\n");
     }
-    if (percentage >=0 && percentage < 33)
+    if (percentage >=0 && percentage < 33) //This is a proto type
     {
         printf("You failed the examination, try your best next time\n");
     }
