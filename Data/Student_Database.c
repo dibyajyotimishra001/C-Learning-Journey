@@ -14,7 +14,7 @@ int main(){
     
     svm *ptr;
     svm student[5];
-    ptr = student;
+    ptr = student; //&student[0]
 
     strcpy(student[0].name, "Mohit");
     strcpy(student[1].name, "Rohit");
